@@ -1,0 +1,98 @@
+main {
+  width: 98vw;
+  height: 98vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 2fr 2fr;
+  grid-template-columns: 2fr 2fr 4fr 2fr 1fr 1fr;
+  grid-template-areas:
+    "Courrier Courrier Calendrier Photos Un Deux"
+    "Courrier Courrier Calendrier Photos Trois Quatre"
+    "Skype Contacts Bourse Explorer Aide Aide"
+    "Liste_de_lecture Drive . Cartes Santé Santé"
+    "Bureau Bureau . Actu Actu Actu";
+  gap: 10px;
+}
+.Courrier {
+  grid-area: Courrier;
+}
+.Calendrier {
+  grid-area: Calendrier;
+}
+.Photos {
+  grid-area: Photos;
+}
+.Un {
+  grid-area: Un;
+}
+.Deux {
+  grid-area: Deux;
+}
+.Trois {
+  grid-area: Trois;
+}
+.Quatre {
+  grid-area: Quatre;
+}
+.Skype {
+  grid-area: Skype;
+}
+.Contacts {
+  grid-area: Contacts;
+}
+.Bourse {
+  grid-area: Bourse;
+}
+.Explorer {
+  grid-area: Explorer;
+}
+.Aide {
+  grid-area: Aide;
+}
+.Liste_de_lecture {
+  grid-area: Liste_de_lecture;
+}
+.Drive {
+  grid-area: Drive;
+}
+.Cartes {
+  grid-area: Cartes;
+}
+.Santé {
+  grid-area: Santé;
+}
+.Bureau {
+  grid-area: Bureau;
+}
+.Actu {
+  grid-area: Actu;
+}
+div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grey {
+  background-color: #708090;
+}
+.purple {
+  background-color: #800080;
+}
+.green {
+  background-color: #2e8b57;
+}
+.red {
+  background-color: #ff0000;
+}
+.yellow {
+  background-color: #ffa500;
+}
+.light-green {
+  background-color: #32cd32;
+}
+.dark-blue {
+  background-color: #000080;
+}
+.blue {
+  background-color: #4169e1;
+}
